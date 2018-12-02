@@ -1,14 +1,13 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Auxi from '../../hoc/Auxi';
 import Burger from '../../components/Burger/Burger';
 import BurgerIngredients from '../../components/Burger/BurgerIngredients/BurgerIngredients';
 
 const burgersetup=(props)=>{
     return(
-        <Aux>
+        <Auxi>
             <Burger />
-            <BurgerIngredients />
-        </Aux>
+        </Auxi>
     );
 }
 

@@ -1,12 +1,13 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Auxi from '../../hoc/Auxi';
+import classses from './Layout.css';
 
 const layout =(props)=>{
     return (
-        <Aux>
+        <Auxi>
         <div>Header sidebar</div>
-        <main>{props.children}</main>
-        </Aux>
+        <main className={classses.Content}>{props.children}</main>
+        </Auxi>
     );
 }
 export default layout;
